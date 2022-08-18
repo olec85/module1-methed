@@ -10,3 +10,13 @@ console.log(nameProduct);
 const sum = priceProduct * amountProduct;
 
 console.log(sum);
+
+const namePhone = 'apple';
+const countPhone = 10;
+const catPhone = 'smart';
+const pricePhone = 85000;
+
+const summ = pricePhone * countPhone;
+
+ console.log(summ);
+
