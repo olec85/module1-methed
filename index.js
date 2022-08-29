@@ -11,12 +11,15 @@ const sum = priceProduct * amountProduct;
 
 console.log(sum);
 
-const namePhone = 'apple';
-const countPhone = 10;
-const catPhone = 'smart';
-const pricePhone = 85000;
+const namePhone = prompt('apple');
+const countPhone = prompt(10);
+const catPhone = prompt('smart');
+const pricePhone = prompt(85000);
 
 const summ = pricePhone * countPhone;
 
  console.log(summ);
+
+ console.log('На складе ${countPhone}  ${namePhone}  на сумму ${pricePhone} * 10');
+
 
