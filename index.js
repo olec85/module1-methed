@@ -11,10 +11,18 @@ const sum = priceProduct * amountProduct;
 
 console.log(sum);
 
-const namePhone = prompt('apple');
-const countPhone = prompt(10);
-const catPhone = prompt('smart');
-const pricePhone = prompt(85000);
+const namePhone = prompt('apple');//название товара
+const countPhone = prompt("Введите количество товара");//количество товара
+/*if (!countPhone === isNaN) {
+        alert("Количество товара")
+} else {
+    alert('Вы ввели некорректные данные') что то не то в этой конструкции я не понимаю что именно
+}
+*/
+
+const catPhone = prompt('smart');//категория товара
+const pricePhone = prompt(85000);//стоимость товара
+
 
 const summ = pricePhone * countPhone;
 
